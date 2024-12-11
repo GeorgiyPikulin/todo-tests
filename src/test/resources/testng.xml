@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ToDo API Tests Suite">
+    <listeners>
+        <listener class-name="listeners.CustomTestListener"/>
+    </listeners>
+    <test name="ToDo CRUD Tests">
+        <classes>
+            <class name="api.tests.crud.CreateTodoTests"/>
+            <class name="api.tests.crud.GetTodosTests"/>
+            <class name="api.tests.crud.UpdateTodoTests"/>
+            <class name="api.tests.crud.DeleteTodoTests"/>
+        </classes>
+    </test>
+    <test name="ToDo Performance Tests">
+        <classes>
+            <class name="api.tests.performance.PerformanceTest"/>
+        </classes>
+    </test>
+    <test name="ToDo WebSocket Tests">
+        <classes>
+            <class name="api.tests.websocket.WebSocketTest"/>
+        </classes>
+    </test>
+</suite>

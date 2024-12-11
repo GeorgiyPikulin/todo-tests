@@ -1,0 +1,630 @@
+2024-12-11 15:14:36 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo CRUD Tests
+2024-12-11 15:14:36 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterCreation
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterCreation
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithLimit
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithLimit
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffset
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffset
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffsetAndLimit
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffsetAndLimit
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterUpdate
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterUpdate
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: validateResponseAfterDelete
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: validateResponseAfterDelete
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: deleteLastTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test passed: deleteLastTodo
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo CRUD Tests
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo Performance Tests
+2024-12-11 15:14:38 [main] INFO  listeners.CustomTestListener - Test started: testPostTodosPerformance
+2024-12-11 15:14:40 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 15:14:40 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1587 ms
+2024-12-11 15:14:40 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 15.3 ms
+2024-12-11 15:14:40 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 81 ms
+2024-12-11 15:14:40 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 8 ms
+2024-12-11 15:14:40 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 15:14:41 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 15:14:41 [main] INFO  listeners.CustomTestListener - Test passed: testPostTodosPerformance
+2024-12-11 15:14:41 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo Performance Tests
+2024-12-11 15:14:41 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo WebSocket Tests
+2024-12-11 15:14:41 [main] INFO  listeners.CustomTestListener - Test started: testWebSocketConnection
+2024-12-11 15:14:41 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 15:14:41 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 15:14:41 [main] INFO  listeners.CustomTestListener - Test passed: testWebSocketConnection
+2024-12-11 15:14:41 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo WebSocket Tests
+2024-12-11 15:14:41 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 15:36:02 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 15:36:04 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 15:36:04 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 15:37:12 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 15:37:13 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 15:37:13 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 15:37:16 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 15:37:16 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1425 ms
+2024-12-11 15:37:16 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 13.6 ms
+2024-12-11 15:37:16 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 39 ms
+2024-12-11 15:37:16 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 9 ms
+2024-12-11 15:37:16 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 15:37:17 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 15:38:52 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 15:38:53 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 15:38:53 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 15:38:55 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 15:38:55 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1345 ms
+2024-12-11 15:38:55 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 12.79 ms
+2024-12-11 15:38:55 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 47 ms
+2024-12-11 15:38:55 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 8 ms
+2024-12-11 15:38:55 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 15:38:57 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 15:39:41 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 15:39:42 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 15:39:43 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 15:39:45 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 15:39:45 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1483 ms
+2024-12-11 15:39:45 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 14.27 ms
+2024-12-11 15:39:45 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 28 ms
+2024-12-11 15:39:45 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 9 ms
+2024-12-11 15:39:45 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 15:39:46 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 15:43:40 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo CRUD Tests
+2024-12-11 15:43:40 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterCreation
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterCreation
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithLimit
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithLimit
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffset
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffset
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffsetAndLimit
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffsetAndLimit
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterUpdate
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterUpdate
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 15:43:42 [main] INFO  listeners.CustomTestListener - Test started: validateResponseAfterDelete
+2024-12-11 15:43:43 [main] INFO  listeners.CustomTestListener - Test passed: validateResponseAfterDelete
+2024-12-11 15:43:43 [main] INFO  listeners.CustomTestListener - Test started: deleteLastTodo
+2024-12-11 15:43:43 [main] INFO  listeners.CustomTestListener - Test passed: deleteLastTodo
+2024-12-11 15:43:43 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo CRUD Tests
+2024-12-11 15:43:43 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo Performance Tests
+2024-12-11 15:43:43 [main] INFO  listeners.CustomTestListener - Test started: testPostTodosPerformance
+2024-12-11 15:43:44 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 15:43:44 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1535 ms
+2024-12-11 15:43:44 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 14.74 ms
+2024-12-11 15:43:44 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 50 ms
+2024-12-11 15:43:44 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 9 ms
+2024-12-11 15:43:44 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 15:43:45 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 15:43:45 [main] INFO  listeners.CustomTestListener - Test passed: testPostTodosPerformance
+2024-12-11 15:43:45 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo Performance Tests
+2024-12-11 15:43:45 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo WebSocket Tests
+2024-12-11 15:43:45 [main] INFO  listeners.CustomTestListener - Test started: testWebSocketConnection
+2024-12-11 15:43:45 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 15:43:45 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 15:43:45 [main] INFO  listeners.CustomTestListener - Test passed: testWebSocketConnection
+2024-12-11 15:43:45 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo WebSocket Tests
+2024-12-11 15:43:45 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 15:46:39 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 15:46:41 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 15:46:41 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 15:46:44 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 15:46:44 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1361 ms
+2024-12-11 15:46:44 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 12.99 ms
+2024-12-11 15:46:44 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 27 ms
+2024-12-11 15:46:44 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 9 ms
+2024-12-11 15:46:44 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 15:46:45 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 15:58:28 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 15:58:31 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 15:58:32 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 15:58:34 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 15:58:34 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1359 ms
+2024-12-11 15:58:34 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 12.98 ms
+2024-12-11 15:58:34 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 47 ms
+2024-12-11 15:58:34 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 8 ms
+2024-12-11 15:58:34 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 15:58:35 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 15:59:36 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 15:59:38 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 15:59:38 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 15:59:40 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 15:59:40 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1388 ms
+2024-12-11 15:59:40 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 13.27 ms
+2024-12-11 15:59:40 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 42 ms
+2024-12-11 15:59:40 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 9 ms
+2024-12-11 15:59:40 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 15:59:41 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 16:05:34 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo CRUD Tests
+2024-12-11 16:05:34 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterCreation
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterCreation
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithLimit
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithLimit
+2024-12-11 16:05:37 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffset
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffset
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffsetAndLimit
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffsetAndLimit
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterUpdate
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterUpdate
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: validateResponseAfterDelete
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: validateResponseAfterDelete
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: deleteLastTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test passed: deleteLastTodo
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo CRUD Tests
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo Performance Tests
+2024-12-11 16:05:38 [main] INFO  listeners.CustomTestListener - Test started: testPostTodosPerformance
+2024-12-11 16:05:40 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 16:05:40 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1733 ms
+2024-12-11 16:05:40 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 16.79 ms
+2024-12-11 16:05:40 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 57 ms
+2024-12-11 16:05:40 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 10 ms
+2024-12-11 16:05:40 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 16:05:41 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 16:05:41 [main] INFO  listeners.CustomTestListener - Test passed: testPostTodosPerformance
+2024-12-11 16:05:41 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo Performance Tests
+2024-12-11 16:05:41 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo WebSocket Tests
+2024-12-11 16:05:41 [main] INFO  listeners.CustomTestListener - Test started: testWebSocketConnection
+2024-12-11 16:05:41 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 16:05:41 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 16:05:41 [main] INFO  listeners.CustomTestListener - Test passed: testWebSocketConnection
+2024-12-11 16:05:41 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo WebSocket Tests
+2024-12-11 16:05:41 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 16:06:00 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo CRUD Tests
+2024-12-11 16:06:00 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterCreation
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterCreation
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithLimit
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithLimit
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffset
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffset
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffsetAndLimit
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffsetAndLimit
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:06:02 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterUpdate
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterUpdate
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test started: validateResponseAfterDelete
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test passed: validateResponseAfterDelete
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test started: deleteLastTodo
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test passed: deleteLastTodo
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo CRUD Tests
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo Performance Tests
+2024-12-11 16:06:03 [main] INFO  listeners.CustomTestListener - Test started: testPostTodosPerformance
+2024-12-11 16:06:05 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 16:06:05 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1814 ms
+2024-12-11 16:06:05 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 17.56 ms
+2024-12-11 16:06:05 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 73 ms
+2024-12-11 16:06:05 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 10 ms
+2024-12-11 16:06:05 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 16:06:06 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 16:06:06 [main] INFO  listeners.CustomTestListener - Test passed: testPostTodosPerformance
+2024-12-11 16:06:06 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo Performance Tests
+2024-12-11 16:06:06 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo WebSocket Tests
+2024-12-11 16:06:06 [main] INFO  listeners.CustomTestListener - Test started: testWebSocketConnection
+2024-12-11 16:06:06 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 16:06:06 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 16:06:06 [main] INFO  listeners.CustomTestListener - Test passed: testWebSocketConnection
+2024-12-11 16:06:06 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo WebSocket Tests
+2024-12-11 16:06:16 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo CRUD Tests
+2024-12-11 16:06:16 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:06:21 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:06:21 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:06:21 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:06:21 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:06:21 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:06:21 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:06:22 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:06:22 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:06:22 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:06:22 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterCreation
+2024-12-11 16:06:22 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterCreation
+2024-12-11 16:06:22 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithLimit
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithLimit
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffset
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffset
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffsetAndLimit
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffsetAndLimit
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterUpdate
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterUpdate
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:06:23 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:06:24 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:06:24 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:06:24 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:06:24 [main] INFO  listeners.CustomTestListener - Test started: validateResponseAfterDelete
+2024-12-11 16:06:24 [main] INFO  listeners.CustomTestListener - Test passed: validateResponseAfterDelete
+2024-12-11 16:06:24 [main] INFO  listeners.CustomTestListener - Test started: deleteLastTodo
+2024-12-11 16:06:24 [main] INFO  listeners.CustomTestListener - Test passed: deleteLastTodo
+2024-12-11 16:06:24 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo CRUD Tests
+2024-12-11 16:06:24 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo Performance Tests
+2024-12-11 16:06:24 [main] INFO  listeners.CustomTestListener - Test started: testPostTodosPerformance
+2024-12-11 16:06:28 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 16:06:28 [main] INFO  api.tests.performance.PerformanceTest - Total time: 4103 ms
+2024-12-11 16:06:28 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 40.45 ms
+2024-12-11 16:06:28 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 270 ms
+2024-12-11 16:06:28 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 16 ms
+2024-12-11 16:06:28 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 16:06:30 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 16:06:30 [main] INFO  listeners.CustomTestListener - Test passed: testPostTodosPerformance
+2024-12-11 16:06:30 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo Performance Tests
+2024-12-11 16:06:30 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo WebSocket Tests
+2024-12-11 16:06:30 [main] INFO  listeners.CustomTestListener - Test started: testWebSocketConnection
+2024-12-11 16:06:30 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 16:06:30 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 16:06:30 [main] INFO  listeners.CustomTestListener - Test passed: testWebSocketConnection
+2024-12-11 16:06:30 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo WebSocket Tests
+2024-12-11 16:06:30 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 16:10:00 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo CRUD Tests
+2024-12-11 16:10:00 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:02 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:02 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:02 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:02 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:02 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:02 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:02 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:02 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:02 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:02 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterCreation
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterCreation
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithLimit
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithLimit
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffset
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffset
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffsetAndLimit
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffsetAndLimit
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterUpdate
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterUpdate
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: validateResponseAfterDelete
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: validateResponseAfterDelete
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: deleteLastTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test passed: deleteLastTodo
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo CRUD Tests
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo Performance Tests
+2024-12-11 16:10:03 [main] INFO  listeners.CustomTestListener - Test started: testPostTodosPerformance
+2024-12-11 16:10:05 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 16:10:05 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1486 ms
+2024-12-11 16:10:05 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 14.24 ms
+2024-12-11 16:10:05 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 34 ms
+2024-12-11 16:10:05 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 9 ms
+2024-12-11 16:10:05 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 16:10:06 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 16:10:06 [main] INFO  listeners.CustomTestListener - Test passed: testPostTodosPerformance
+2024-12-11 16:10:06 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo Performance Tests
+2024-12-11 16:10:06 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo WebSocket Tests
+2024-12-11 16:10:06 [main] INFO  listeners.CustomTestListener - Test started: testWebSocketConnection
+2024-12-11 16:10:06 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 16:10:06 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 16:10:06 [main] INFO  listeners.CustomTestListener - Test passed: testWebSocketConnection
+2024-12-11 16:10:06 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo WebSocket Tests
+2024-12-11 16:10:06 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 16:10:25 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo CRUD Tests
+2024-12-11 16:10:25 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterCreation
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterCreation
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithLimit
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithLimit
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffset
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffset
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffsetAndLimit
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffsetAndLimit
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterUpdate
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterUpdate
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:27 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:28 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:28 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:28 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:28 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:28 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:28 [main] INFO  listeners.CustomTestListener - Test started: validateResponseAfterDelete
+2024-12-11 16:10:28 [main] INFO  listeners.CustomTestListener - Test passed: validateResponseAfterDelete
+2024-12-11 16:10:28 [main] INFO  listeners.CustomTestListener - Test started: deleteLastTodo
+2024-12-11 16:10:28 [main] INFO  listeners.CustomTestListener - Test passed: deleteLastTodo
+2024-12-11 16:10:28 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo CRUD Tests
+2024-12-11 16:10:28 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo Performance Tests
+2024-12-11 16:10:28 [main] INFO  listeners.CustomTestListener - Test started: testPostTodosPerformance
+2024-12-11 16:10:29 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 16:10:29 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1673 ms
+2024-12-11 16:10:29 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 16.16 ms
+2024-12-11 16:10:29 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 104 ms
+2024-12-11 16:10:29 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 9 ms
+2024-12-11 16:10:29 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 16:10:30 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 16:10:30 [main] INFO  listeners.CustomTestListener - Test passed: testPostTodosPerformance
+2024-12-11 16:10:30 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo Performance Tests
+2024-12-11 16:10:30 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo WebSocket Tests
+2024-12-11 16:10:30 [main] INFO  listeners.CustomTestListener - Test started: testWebSocketConnection
+2024-12-11 16:10:30 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 16:10:30 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 16:10:30 [main] INFO  listeners.CustomTestListener - Test passed: testWebSocketConnection
+2024-12-11 16:10:30 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo WebSocket Tests
+2024-12-11 16:10:30 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 16:10:51 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo CRUD Tests
+2024-12-11 16:10:51 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterCreation
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterCreation
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithLimit
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithLimit
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffset
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffset
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffsetAndLimit
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffsetAndLimit
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterUpdate
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterUpdate
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:53 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test started: validateResponseAfterDelete
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test passed: validateResponseAfterDelete
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test started: deleteLastTodo
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test passed: deleteLastTodo
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo CRUD Tests
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo Performance Tests
+2024-12-11 16:10:54 [main] INFO  listeners.CustomTestListener - Test started: testPostTodosPerformance
+2024-12-11 16:10:55 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 16:10:55 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1772 ms
+2024-12-11 16:10:55 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 17.2 ms
+2024-12-11 16:10:55 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 59 ms
+2024-12-11 16:10:55 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 11 ms
+2024-12-11 16:10:55 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 16:10:57 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 16:10:57 [main] INFO  listeners.CustomTestListener - Test passed: testPostTodosPerformance
+2024-12-11 16:10:57 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo Performance Tests
+2024-12-11 16:10:57 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo WebSocket Tests
+2024-12-11 16:10:57 [main] INFO  listeners.CustomTestListener - Test started: testWebSocketConnection
+2024-12-11 16:10:57 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 16:10:57 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 16:10:57 [main] INFO  listeners.CustomTestListener - Test passed: testWebSocketConnection
+2024-12-11 16:10:57 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo WebSocket Tests
+2024-12-11 16:10:57 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 16:11:30 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 16:11:32 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 16:11:32 [WebSocketConnectReadThread-20] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
+2024-12-11 16:11:34 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 16:11:34 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1512 ms
+2024-12-11 16:11:34 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 14.46 ms
+2024-12-11 16:11:34 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 31 ms
+2024-12-11 16:11:34 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 10 ms
+2024-12-11 16:11:34 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 16:11:35 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 16:12:07 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo CRUD Tests
+2024-12-11 16:12:07 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:12:09 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:12:09 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:12:09 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:12:09 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:12:09 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:12:09 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:12:09 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:12:09 [main] INFO  listeners.CustomTestListener - Test started: createTodo
+2024-12-11 16:12:09 [main] INFO  listeners.CustomTestListener - Test passed: createTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterCreation
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterCreation
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithLimit
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithLimit
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffset
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffset
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: validateIdsWithOffsetAndLimit
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: validateIdsWithOffsetAndLimit
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: updateTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: updateTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: checkAllFieldsAfterUpdate
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: checkAllFieldsAfterUpdate
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: deleteTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: deleteTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: validateResponseAfterDelete
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: validateResponseAfterDelete
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: deleteLastTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test passed: deleteLastTodo
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo CRUD Tests
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo Performance Tests
+2024-12-11 16:12:10 [main] INFO  listeners.CustomTestListener - Test started: testPostTodosPerformance
+2024-12-11 16:12:12 [main] INFO  api.tests.performance.PerformanceTest - Performance test completed for 100 requests
+2024-12-11 16:12:12 [main] INFO  api.tests.performance.PerformanceTest - Total time: 1747 ms
+2024-12-11 16:12:12 [main] INFO  api.tests.performance.PerformanceTest - Average time per request: 16.86 ms
+2024-12-11 16:12:12 [main] INFO  api.tests.performance.PerformanceTest - Max time per request: 59 ms
+2024-12-11 16:12:12 [main] INFO  api.tests.performance.PerformanceTest - Min time per request: 9 ms
+2024-12-11 16:12:12 [main] INFO  api.tests.performance.PerformanceTest - Deleting created ToDos
+2024-12-11 16:12:13 [main] INFO  api.tests.performance.PerformanceTest - All created ToDos deleted successfully
+2024-12-11 16:12:13 [main] INFO  listeners.CustomTestListener - Test passed: testPostTodosPerformance
+2024-12-11 16:12:13 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo Performance Tests
+2024-12-11 16:12:13 [main] INFO  listeners.CustomTestListener - Test suite started: ToDo WebSocket Tests
+2024-12-11 16:12:13 [main] INFO  listeners.CustomTestListener - Test started: testWebSocketConnection
+2024-12-11 16:12:13 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection opened
+2024-12-11 16:12:14 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - Received message: {"data":{"completed":true,"id":13,"text":"TestWS"},"type":"new_todo"}
+2024-12-11 16:12:14 [main] INFO  listeners.CustomTestListener - Test passed: testWebSocketConnection
+2024-12-11 16:12:14 [main] INFO  listeners.CustomTestListener - Test suite finished: ToDo WebSocket Tests
+2024-12-11 16:12:14 [WebSocketConnectReadThread-19] INFO  api.websocket.CustomWebSocketClient - WebSocket connection closed. Code: 1000, Reason: 
